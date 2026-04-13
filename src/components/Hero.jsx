@@ -36,7 +36,7 @@ export default function Hero() {
 
           <h1 className="hero__name">
             Hi, I'm<br />
-            <span className="hero__name-accent">{profile.name.split(' ')[0]}</span>
+            <span className="hero__name-accent">{profile.name}</span>
           </h1>
 
           <div className="hero__typewriter">
