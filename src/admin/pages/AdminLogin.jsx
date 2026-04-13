@@ -26,7 +26,7 @@ export default function AdminLogin() {
   return (
     <div className="admin-login">
       <div className="admin-login__box">
-        <div className="admin-login__logo">&lt;Admin/&gt;</div>
+        <div className="admin-login__logo">Arafat</div>
         <p className="admin-login__sub">Portfolio Admin Panel — sign in to continue</p>
 
         <form onSubmit={handleSubmit}>

@@ -26,7 +26,7 @@ export default function AdminSidebar() {
 
   return (
     <aside className="admin-sidebar">
-      <div className="admin-sidebar__logo">&lt;Admin/&gt;</div>
+      <div className="admin-sidebar__logo">Arafat Admin</div>
 
       <nav className="admin-sidebar__nav">
         {LINKS.map(link => (

@@ -43,7 +43,7 @@ export default function Navbar() {
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="navbar__inner">
           <a className="navbar__logo" href="#hero" onClick={e => { e.preventDefault(); scrollTo('#hero'); }}>
-            &lt;Dev/&gt;
+            Arafat
           </a>
 
           <div className="navbar__links">

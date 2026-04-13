@@ -24,7 +24,7 @@ export default function Footer() {
           backgroundClip: 'text',
           marginBottom: 16,
         }}>
-          &lt;Dev/&gt;
+          Arafat
         </div>
 
         <div style={{ display: 'flex', justifyContent: 'center', gap: 10, marginBottom: 24 }}>

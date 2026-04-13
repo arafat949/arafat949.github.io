@@ -3,7 +3,7 @@
 // ============================================================
 
 export const profile = {
-  name: "Md. Rahim Uddin",
+  name: "Md. Arafat",
   title: "Full Stack Developer",
   taglines: ["Full Stack Developer", "UI/UX Designer", "Open Source Enthusiast", "Problem Solver"],
   bio: "আমি একজন passionate developer যিনি modern web applications তৈরিতে বিশেষজ্ঞ। আমার লক্ষ্য হলো technology দিয়ে মানুষের জীবন সহজ করা। ৪+ বছরের অভিজ্ঞতায় ৩০+ প্রজেক্ট সফলভাবে deliver করেছি।",
@@ -82,16 +82,16 @@ export const projects = [
 ];
 
 export const contact = {
-  email: "rahim@example.com",
-  phone: "+880 1700-000000",
-  whatsapp: "+8801700000000",
+  email: "mdarafatmiah949@gmail.com",
+  phone: "01595-404395",
+  whatsapp: "01595-404395",
   address: "Dhaka, Bangladesh",
 };
 
 export const social = [
-  { name: "GitHub",   url: "https://github.com/yourname",    icon: "FaGithub"   },
+  { name: "GitHub",   url: "https://github.com/arafat949",    icon: "FaGithub"   },
   { name: "LinkedIn", url: "https://linkedin.com/in/yourname", icon: "FaLinkedin" },
-  { name: "Facebook", url: "https://facebook.com/yourname",  icon: "FaFacebook" },
+  { name: "Facebook", url: "https://facebook.com/arafat949",  icon: "FaFacebook" },
   { name: "Twitter",  url: "https://x.com/yourname",         icon: "FaXTwitter" },
 ];
 
