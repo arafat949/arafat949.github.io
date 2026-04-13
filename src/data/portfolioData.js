@@ -12,7 +12,7 @@ export const profile = {
   projects: "30+",
   clients: "20+",
   avatar: "", // photo URL দিন অথবা খালি রাখলে initials দেখাবে
-  resumeUrl: "#",
+  resumeUrl: "/Arafat_Resume.pdf",
 };
 
 export const skills = [
