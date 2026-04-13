@@ -11,12 +11,7 @@ import '../styles/Hero.css';
 export default function Hero() {
   const { ref, inView } = useInView({ threshold: 0.2, triggerOnce: true });
 
-  const initials = profile.name
-    .split(' ')
-    .map(n => n[0])
-    .join('')
-    .slice(0, 2)
-    .toUpperCase();
+  const initials = 'Arafat';
 
   const typeSequence = profile.taglines.flatMap(t => [t, 2000]);
 
