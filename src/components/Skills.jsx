@@ -7,6 +7,7 @@ import {
   ResponsiveContainer, Tooltip
 } from 'recharts';
 import '../styles/Skills.css';
+import { skills } from '../data/portfolioData';
 
 const CATEGORIES = ['All', ...new Set(skills.map(s => s.category))];
 
