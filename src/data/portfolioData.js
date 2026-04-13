@@ -5,7 +5,7 @@
 export const profile = {
   name: "Md. Arafat",
   title: "Full Stack Developer",
-  taglines: ["Full Stack Developer", "UI/UX Designer", "Open Source Enthusiast", "Problem Solver"],
+  taglines: ["Full Stack Developer", "Android Developer", "UI/UX Designer", "Problem Solver"],
   bio: "আমি একজন passionate developer যিনি modern web applications তৈরিতে বিশেষজ্ঞ। আমার লক্ষ্য হলো technology দিয়ে মানুষের জীবন সহজ করা। ৪+ বছরের অভিজ্ঞতায় ৩০+ প্রজেক্ট সফলভাবে deliver করেছি।",
   location: "Dhaka, Bangladesh",
   experience: "4+",
@@ -26,6 +26,9 @@ export const skills = [
   { name: "Next.js",       level: 82, category: "Frontend" },
   { name: "Python",        level: 70, category: "Language" },
   { name: "AWS",           level: 60, category: "DevOps"   },
+  { name: "Java",          level: 80, category: "Android" },
+  { name: "XML (Android)", level: 78, category: "Android" },
+  { name: "Android SDK",   level: 75, category: "Android" },
 ];
 
 export const projects = [
@@ -61,6 +64,26 @@ export const projects = [
   },
   {
     id: 4,
+    title: "AuraWalls",
+    description: "Feature-rich Android wallpaper app with dynamic categories, AI-powered recommendations, favorites system এবং smooth animations।",
+    tags: ["Java", "XML", "Android", "Firebase"],
+    github: "https://github.com/arafat949",
+    live: "#",
+    featured: true,
+    stats: { stars: 45, forks: 12 },
+  },
+  {
+    id: 5,
+    title: "SothikDor",
+    description: "Real-time market price tracker Android app যা বাজারের সঠিক দাম track করে। Location-based pricing এবং price history visualization সহ।",
+    tags: ["Java", "XML", "Android", "REST API"],
+    github: "https://github.com/arafat949",
+    live: "#",
+    featured: true,
+    stats: { stars: 38, forks: 9 },
+  },
+  {
+    id: 6,
     title: "Weather Dashboard",
     description: "Interactive weather visualization with forecast charts, map integration এবং location search।",
     tags: ["React", "D3.js", "Weather API"],
@@ -70,7 +93,7 @@ export const projects = [
     stats: { stars: 45, forks: 12 },
   },
   {
-    id: 5,
+    id: 7,
     title: "Blog CMS",
     description: "Headless CMS with markdown editor, SEO optimization এবং multi-author support।",
     tags: ["Next.js", "Sanity", "Vercel"],
